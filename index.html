@@ -12,20 +12,20 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; padding-top: 3rem;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
   <main>
-    <div class="container">
+    <div id ="tanya" class="containerTanya">
       <div class="header">
         <div class="tanya">
           <img src="./images/image-tanya.jpg" alt="Tanya Photo">
         </div>
         <div class="button">
           <img src="./images/icon-prev.svg" alt="Preview icon">
-          <img src="./images/icon-next.svg" alt="Next Icon">
+          <img id="next" src="./images/icon-next.svg" alt="Next Icon">
         </div>
       </div>
 
@@ -39,26 +39,36 @@
         <p class="job">UX Engineer</p>
       </div>
     </div>
+
+    <div id="john" class="containerJohn">
+      <div class="header">
+        <div class="tanya">
+          <img src="./images/image-john.jpg" alt="John Photo">
+        </div>
+        <div class="button">
+          <img id="preview" src="./images/icon-prev.svg" alt="Preview icon">
+          <img src="./images/icon-next.svg" alt="Next Icon">
+        </div>
+      </div>
+
+      <div class="details">
+        <p class="text">
+          “ If you want to lay the best foundation possible I’d recommend taking this course. 
+          The depth the instructors go into is incredible. I now feel so confident about 
+          starting up as a professional developer. ”
+        </p>
+        <p class="name">John Tarkpor</p>
+        <p class="job">Junior Front-end Developer</p>
+      </div>
+    </div>
   </main>
 
   
-
-  
-  
-
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
-
-  John Tarkpor
-  Junior Front-end Developer
-
-  
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://hualdevportafolio.netlify.app">Hualdev</a>.
   </div>
   
+  <script src="./testimonials.js"></script>
 </body>
 </html>

@@ -16,6 +16,11 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+.containerTanya{
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     background-image: url('./images/pattern-bg.svg');
     background-size: contain;
@@ -91,4 +96,20 @@ body{
     font-size: 1rem;
 }
 
+.containerJohn{
+    display: none;
+    flex-direction: column;
+}
+
+@media(min-width:600px){
+    .containerTanya{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
