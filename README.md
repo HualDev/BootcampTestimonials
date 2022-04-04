@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [HualDev](https://github.com/HualDev/testimonialsGridSection)
-- Live Site URL: [LoopStudios](https://hualdev.github.io/testimonialsGridSection/)
+- Solution URL: [HualDev](https://github.com/HualDev/BootcampTestimonials)
+- Live Site URL: [LoopStudios](https://hualdev.github.io/BootcampTestimonials/)
 
 ## My process
 
